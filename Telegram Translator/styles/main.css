@@ -1,0 +1,361 @@
+/* styles/main.css - Complete Updated Translation Styles */
+
+/* === TRANSLATION BLOCKS === */
+.translation-block {
+    margin: 12px 16px !important;
+    padding: 12px 16px !important;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.1) 100%) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 2px solid rgba(102, 126, 234, 0.3) !important;
+    border-left: 4px solid #667eea !important;
+    border-radius: 12px !important;
+    font-size: 14px !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    line-height: 1.6 !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    text-align: left !important;
+    opacity: 1 !important;
+    display: block !important;
+    visibility: visible !important;
+    position: relative !important;
+    z-index: 1000 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    min-height: 40px !important;
+    transition: all 0.3s ease !important;
+    transform: translateY(0) !important;
+    box-shadow: 
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        0 2px 4px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.translation-block::before {
+    content: '';
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%) !important;
+    border-radius: 10px !important;
+    pointer-events: none !important;
+    z-index: -1 !important;
+}
+
+.translation-block.visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    animation: slideInTranslation 0.4s ease-out !important;
+}
+
+.translation-block.error {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.2) 0%, rgba(220, 38, 38, 0.15) 100%) !important;
+    border-color: rgba(239, 68, 68, 0.5) !important;
+    border-left-color: #ef4444 !important;
+    color: #ffcccb !important;
+}
+
+.translation-block.error::before {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(220, 38, 38, 0.05) 100%) !important;
+}
+
+/* Ensure text is always visible */
+.translation-block * {
+    color: inherit !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Animation for translation appearance */
+@keyframes slideInTranslation {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Hover effects */
+.translation-block:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 
+        0 6px 16px rgba(0, 0, 0, 0.25),
+        0 3px 6px rgba(0, 0, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+    border-color: rgba(102, 126, 234, 0.5) !important;
+}
+
+/* === TRANSLATE BUTTONS === */
+.translate-button {
+    margin: 8px 16px !important;
+    padding: 0 !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: relative !important;
+    z-index: 1000 !important;
+    animation: slideInTranslation 0.4s ease-out !important;
+}
+
+.translate-btn {
+    width: 100% !important;
+    padding: 10px 16px !important;
+    background: linear-gradient(135deg, #4285f4 0%, #34a853 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    text-transform: none !important;
+    font-family: inherit !important;
+    letter-spacing: 0.3px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+    outline: none !important;
+}
+
+.translate-btn:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.translate-btn:active {
+    transform: translateY(0) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.translate-btn:disabled {
+    opacity: 0.7 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+}
+
+/* Mistral AI button styling */
+.translate-button[data-service="mistral"] .translate-btn {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+}
+
+/* Gemini 2.5 Pro button styling */
+.translate-button[data-service="gemini_pro"] .translate-btn {
+    background: linear-gradient(135deg, #4285f4 0%, #1565c0 100%) !important;
+}
+
+/* Gemini 2.0 Flash button styling */
+.translate-button[data-service="gemini_flash"] .translate-btn {
+    background: linear-gradient(135deg, #34a853 0%, #2e7d32 100%) !important;
+}
+
+/* === THEME SUPPORT === */
+
+/* Dark theme support */
+[data-theme="dark"] .translation-block,
+.theme-dark .translation-block,
+body.theme-dark .translation-block {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.15) 100%) !important;
+    color: #f1f5f9 !important;
+    border-color: rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Light theme support */
+[data-theme="light"] .translation-block,
+.theme-light .translation-block,
+body.theme-light .translation-block {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.08) 100%) !important;
+    color: #1e293b !important;
+    border-color: rgba(102, 126, 234, 0.3) !important;
+    text-shadow: none !important;
+}
+
+/* === FALLBACK STYLING === */
+
+/* Fallback for any visibility issues */
+div[class*="translation-block"] {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    padding: 12px 16px !important;
+    margin: 12px 16px !important;
+    background: rgba(102, 126, 234, 0.2) !important;
+    border-left: 4px solid #667eea !important;
+    border-radius: 8px !important;
+}
+
+/* Force visibility for any nested elements */
+.translation-block span,
+.translation-block div,
+.translation-block p {
+    color: inherit !important;
+    opacity: 1 !important;
+    display: inline !important;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .translation-block {
+        margin: 8px 12px !important;
+        padding: 10px 14px !important;
+        font-size: 13px !important;
+        border-radius: 8px !important;
+    }
+    
+    .translate-button {
+        margin: 6px 12px !important;
+    }
+    
+    .translate-btn {
+        padding: 8px 14px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* === ACCESSIBILITY === */
+
+/* High contrast for better visibility */
+@media (prefers-contrast: high) {
+    .translation-block {
+        border: 2px solid #667eea !important;
+        background: rgba(102, 126, 234, 0.3) !important;
+        color: #ffffff !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8) !important;
+    }
+    
+    .translation-block.error {
+        border: 2px solid #ef4444 !important;
+        background: rgba(239, 68, 68, 0.3) !important;
+        color: #ffffff !important;
+    }
+    
+    .translate-btn {
+        border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .translation-block {
+        transition: opacity 0.2s ease !important;
+        animation: none !important;
+    }
+    
+    .translation-block.visible {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    
+    .translate-button {
+        animation: none !important;
+    }
+    
+    .translate-btn {
+        transition: background-color 0.2s ease !important;
+    }
+    
+    .translate-btn:hover {
+        transform: none !important;
+    }
+}
+
+/* === PRINT STYLES === */
+@media print {
+    .translation-block {
+        background: #f3f4f6 !important;
+        border: 1px solid #667eea !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    .translate-button {
+        display: none !important;
+    }
+}
+
+/* === SELECTION STYLES === */
+.translation-block::selection {
+    background: rgba(102, 126, 234, 0.3) !important;
+    color: #ffffff !important;
+}
+
+.translation-block::-moz-selection {
+    background: rgba(102, 126, 234, 0.3) !important;
+    color: #ffffff !important;
+}
+
+/* === FOCUS STYLES === */
+.translate-btn:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.5) !important;
+    outline-offset: 2px !important;
+}
+
+/* === LOADING STATES === */
+.translate-btn.loading {
+    opacity: 0.7 !important;
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+}
+
+.translate-btn.loading::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 6px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* === ADVANCED ANIMATIONS === */
+.translate-button.fade-out {
+    opacity: 0 !important;
+    transform: translateY(-10px) scale(0.95) !important;
+    transition: all 0.3s ease !important;
+}
+
+.translation-block.slide-in {
+    animation: slideInFromBottom 0.5s ease-out !important;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* === RTL SUPPORT === */
+[dir="rtl"] .translation-block {
+    border-left: none !important;
+    border-right: 4px solid #667eea !important;
+    text-align: right !important;
+}
+
+[dir="rtl"] .translation-block.error {
+    border-right-color: #ef4444 !important;
+}
