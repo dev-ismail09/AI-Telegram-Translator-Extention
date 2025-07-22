@@ -8,7 +8,7 @@ A powerful, feature-rich Chrome extension that provides instant, AI-powered tran
 
 
 
-![Demo GIF showing the extension in action: popup settings, translate button appearing, and translation block showing up](link_to_your_demo.gif)
+![Demo GIF showing the extension in action: popup settings, translate button appearing, and translation block showing up](demo.gif)
 
 ---
 
